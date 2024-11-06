@@ -1,0 +1,52 @@
+.slider h3,
+.slider h5,
+.clients h3 {
+  text-shadow: 1px 1px 10px black, -1px -1px 10px black;
+  font-size: 30px;
+}
+
+section,
+footer {
+  padding: 20px 0;
+}
+
+.wa_btn {
+  position: fixed;
+  right: 30px;
+  bottom: 50px;
+  text-decoration: none;
+  color: black;
+  background-color: rgb(35, 243, 16);
+  padding: 10px 20px;
+  border-radius: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wa_btn i {
+  font-size: 60px;
+  padding: 10px 10px;
+  background-color: rgb(35, 243, 16);
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 120px;
+  color: #fff;
+}
+
+@media (max-width: 576px) {
+    .wa_btn {
+        background-color: transparent;
+    }
+    .wa_btn span {
+        display: none;
+    }
+    .wa_btn i {
+        right: 0;
+    }
+}
